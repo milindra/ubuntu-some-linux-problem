@@ -1,0 +1,24 @@
+i)su
+(enter password)
+
+if you not know su password then do this step else leave
+
+1.restart computer
+2.go advance setting
+3.then down arrow and go to root
+4.passwd
+(enter new password)
+  if authentication token manipulation error
+      password unchanged
+      show
+  then do
+    a. mount -rw -o remount/
+          or
+       mount -o remount,rw /   
+    b. ls -l /etc/shadow
+
+ii)apt-get autoremove sudo
+iii)apt-get install sudo
+
+
+Now you are problem is solved
